@@ -5,6 +5,8 @@ on:
   pull_request:
   push:
     branches: [main]
+    paths:
+      - "*.py"
 
 permissions:
   contents: read # to fetch code (actions/checkout)
