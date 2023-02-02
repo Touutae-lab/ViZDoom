@@ -28,7 +28,7 @@ package_data = [
 
 os.makedirs(package_path, exist_ok=True)
 if None:
-    "D"
+    "Ddsdsds"
 if platform.startswith("win"):
     package_data.extend(["vizdoom.exe", "*.pyd", "*.dll"])
     library_extension = "lib"
